@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 env:
-  WEBAPP: <replace-with-your-ase-webapp-name>
-  RESOURCE_GROUP: <replace-with-your-resource-group-name>
-  STORAGE_ACCOUNT: ""  # This must be a *globally* unique name. (Only lowercase letters and numbers allowed. No spaces, dashes, underscores.)
+  WEBAPP: ph-ase-webapp
+  RESOURCE_GROUP: jboss-rg
+  STORAGE_ACCOUNT: "pheapwebappstorage"  # This must be a *globally* unique name. (Only lowercase letters and numbers allowed. No spaces, dashes, underscores.)
 
   LOCATION: eastus
   CONTAINER: artifacts
